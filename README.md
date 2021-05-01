@@ -1,2 +1,3 @@
-# annoying-github-statistics
-Browser extension that hides annoying me statistic on github.com
+# annoying-github-statistics-disabler
+
+Browser extension that hides annoying me statistics on github.com

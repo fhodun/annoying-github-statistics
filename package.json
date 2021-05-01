@@ -1,0 +1,23 @@
+{
+  "name": "annoying-github-statistics-disabler",
+  "version": "1.0.0",
+  "description": "Browser extension that hides annoying me statistics on github.com",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhodun/annoying-github-statistics-disabler.git"
+  },
+  "author": "Filip Hodun <filiphodun@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fhodun/annoying-github-statistics-disabler/issues"
+  },
+  "homepage": "https://github.com/fhodun/annoying-github-statistics-disabler#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "webpack": "^5.36.2"
+  }
+}

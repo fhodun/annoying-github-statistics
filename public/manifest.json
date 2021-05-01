@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+
+    "name": "Annoying Github Statistics Disabler",
+    "description": "Browser extension that hides annoying me statistics on github.com",
+    "version": "1.0",
+
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    },
+
+    "browser_action": {
+        "default_icon": "icons/icon128.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://*.github.com/*"]
+    }],
+
+    "background": {
+    },
+
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "64": "icons/icon64.png",
+        "128": "icons/icon128.png"
+    },
+
+    "permissions": [
+        "browsingData",
+        "<all_urls>",
+        "webRequest"
+    ]
+}
