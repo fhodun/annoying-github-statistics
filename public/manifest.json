@@ -5,21 +5,14 @@
     "description": "Browser extension that hides annoying me statistics on github.com",
     "version": "1.0",
 
-    "options_ui": {
-        "page": "options.html",
-        "chrome_style": true
-    },
-
     "browser_action": {
         "default_icon": "icons/icon128.png"
     },
 
     "content_scripts": [{
-        "matches": ["https://*.github.com/*"]
+        "matches": ["https://*.github.com/*"],
+        "js": ["content.js"]
     }],
-
-    "background": {
-    },
 
     "icons": {
         "16": "icons/icon16.png",
@@ -29,8 +22,6 @@
     },
 
     "permissions": [
-        "browsingData",
-        "<all_urls>",
         "webRequest"
     ]
 }

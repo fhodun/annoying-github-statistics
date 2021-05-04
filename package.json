@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/fhodun/annoying-github-statistics-disabler#readme",
   "devDependencies": {
+    "@types/chrome": "^0.0.137",
     "copy-webpack-plugin": "^8.1.1",
-    "webpack": "^5.36.2"
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
   }
 }
