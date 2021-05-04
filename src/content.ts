@@ -1,5 +1,5 @@
 (function () {
-  document.write
+  document.write("aaaaaaaaaaaaaaaaaaaaaaaaaadddddddddddddddddddddddddddddddddddddddddxzzzzzzzzzzzzzz");
   let stupid_statistics = document.querySelector<HTMLElement>(
     ".js-yearly-contributions"
   );
