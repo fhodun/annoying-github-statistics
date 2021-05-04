@@ -1,5 +1,5 @@
 (function () {
-  let stupid_statistics = document.querySelector<HTMLElement>(
+  let stupid_statistics = document.querySelector(
     ".js-yearly-contributions"
   );
   console.log(stupid_statistics);

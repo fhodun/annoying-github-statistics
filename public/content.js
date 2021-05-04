@@ -1,1 +1,1 @@
-!function(){let e=document.querySelector<HTMLElement>".js-yearly-contributions";if(console.log(e),!e)throw new Error("statistics not detected!");e.style.display="none"}();
+!function(){let t=document.querySelector(".js-yearly-contributions");if(console.log(t),!t)throw new Error("statistics not detected!");t.style.display="none"}();
