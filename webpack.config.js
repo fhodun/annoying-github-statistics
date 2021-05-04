@@ -11,12 +11,6 @@ module.exports = {
         path: path.join(__dirname, "./public"),
         filename: "[name].js",
     },
-    optimization: {
-        splitChunks: {
-            name: "vendor",
-            chunks: "initial",
-        },
-    },
     resolve: {
         extensions: [".ts", "tsx", ".js"],
     },
